@@ -132,11 +132,9 @@ let discount= 0;
 let totalHarga= harga*jmlItem;
 
 if (totalHarga >= 60000) {
-    discount = ((harga / 100) * 35);
     potongan = ((35 / 100) * totalHarga);
     subTotal = (totalHarga - potongan);
     } else {
-    discount = ((harga / 100) * 0);
     potongan = ((35 / 100) * 0);
     subTotal = (totalHarga - potongan);
     }
